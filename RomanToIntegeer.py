@@ -17,8 +17,7 @@ class Solution(object):
         # specila cases
         number = 0
         s = s.replace("IV", "IIII").replace("IX", "VIIII").replace("XL", "XXXX").replace("XC", "LXXXX").replace("CD",
-                                                                                                                "CCCC").replace(
-            "CM", "DCCCC")
+                                                                                                                "CCCC").replace("CM", "DCCCC")
 
         for i in s:
             number = number + m[i]
